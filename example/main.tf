@@ -33,6 +33,7 @@ module "rds" {
   storage_type           = "gp2"
   allocated_storage      = 50
   db_name                = "postgres"
+  db_username            = "postgres"
   db_password            = "Password123#"
   availability_zone      = "eu-central-1a"
   db_subnets             = module.vpc.private_subnets
