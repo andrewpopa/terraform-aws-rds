@@ -68,3 +68,6 @@ module "rds" {
 | **Name**  | **Type** | **Description** |
 | ------------- | ------------- | ------------- |
 | rds_ip | string | RDS ip |
+| db_name | string | DB name |
+| db_port | string | DB port |
+| db_username | string | DB username |
