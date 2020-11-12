@@ -36,19 +36,19 @@ variable "allocated_storage" {
   default     = 50
 }
 
-variable "db_name" {
+variable "name" {
   description = "DB name"
   type        = string
   default     = "dbpostgres1"
 }
 
-variable "db_username" {
+variable "username" {
   description = "DB user"
   type        = string
   default     = "postgres"
 }
 
-variable "db_password" {
+variable "password" {
   description = "DB password"
   type        = string
   default     = "Password123#"
