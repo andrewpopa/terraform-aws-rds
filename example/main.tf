@@ -32,9 +32,9 @@ module "rds" {
   engine_version         = "9.6"
   storage_type           = "gp2"
   allocated_storage      = 50
-  name                   = "postgres"
-  username               = "postgres"
-  password               = "Password123#"
+  db_name                = "postgres"
+  db_username            = "postgres"
+  db_password            = "Password123#"
   availability_zone      = "eu-central-1a"
   db_subnets             = module.vpc.private_subnets
   vpc_security_group_ids = module.security-group.sg_id
